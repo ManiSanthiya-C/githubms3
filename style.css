@@ -1,1 +1,65 @@
- index
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    
+    color: ora;
+}
+li,ul,h1{
+    display: inline;
+}
+li,ul,img{
+        display: inline;
+       margin-top: 10px;
+       padding-right: 10px;
+       cursor: pointer;
+    }
+    li:hover{
+        color: red;
+    }
+    input{
+        width: 30%;
+        padding: 15px;
+    }
+    .searchbar{
+        padding: 50px;
+        text-align: center;
+        border-color: brown;
+        border-width:2px ;
+    }
+    .box{
+    border-color: black;
+    border-width: 2x;
+    border-style: solid;
+    display:inline-block;
+    width: 500px;
+    height: 200px;
+    }
+    .web{
+        text-align: center;
+    }
+    .box:hover{
+        background-color: rgb(207, 205, 205);
+        color: black;
+    }
+    .box{
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .li{
+        font-family: 'Times New Roman';
+
+    }
+    .li,button{
+        background-color:goldenrod;
+color: black;
+    }
+    h2{
+        color: red;
+    }
+  
+   body {
+    background-color:white;
+   
+  }
